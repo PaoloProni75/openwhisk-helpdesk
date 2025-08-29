@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "question": "How do I register a new job?",
+    "answer": "Go to Jobs - Activities, click 'New Job', fill in the main details and save.",
+    "escalation": false
+  },
+  {
+    "id": 2,
+    "question": "How can I set the work date, registration date, and payment date?",
+    "answer": "Inside the job form, enter the work date, registration date, and payment date in their respective fields.",
+    "escalation": false
+  },
+  {
+    "id": 3,
+    "question": "How do I select the customer for a job?",
+    "answer": "In the job form, use the 'Customer' dropdown to select the client.",
+    "escalation": false
+  },
+  {
+    "id": 4,
+    "question": "How do I select the crop for a job?",
+    "answer": "In the job form, use the 'Crop' dropdown to choose the correct crop.",
+    "escalation": false
+  },
+  {
+    "id": 5,
+    "question": "How can I set the field or plot for a job?",
+    "answer": "In the job form, use the 'Field' dropdown to select the specific plot.",
+    "escalation": false
+  },
+  {
+    "id": 6,
+    "question": "How do I assign a machine to a job?",
+    "answer": "Go to the 'Machines' tab in the job form and select the machine to be used.",
+    "escalation": false
+  },
+  {
+    "id": 7,
+    "question": "How do I assign a worker to a job?",
+    "answer": "Go to the 'Workers' tab in the job form and select the worker from the list.",
+    "escalation": false
+  },
+  {
+    "id": 8,
+    "question": "How can I apply a discount on a job?",
+    "answer": "In the job form, set the discount percentage or amount before finalizing the invoice.",
+    "escalation": false
+  },
+  {
+    "id": 9,
+    "question": "How do I check if a job has already been invoiced?",
+    "answer": "Look at the 'Invoicing Status' field in the job form.",
+    "escalation": false
+  },
+  {
+    "id": 10,
+    "question": "How do I generate an invoice from a job?",
+    "answer": "In the job form, click 'Invoice it' to generate the invoice.",
+    "escalation": false
+  },
+  {
+    "id": 11,
+    "question": "How do I create a new customer?",
+    "answer": "Go to Companies > Customers and click 'New Customer' to add details.",
+    "escalation": false
+  },
+  {
+    "id": 12,
+    "question": "How do I create a new worker?",
+    "answer": "Go to Companies > Workers, click 'New Worker', and fill in the worker's details.",
+    "escalation": false
+  },
+  {
+    "id": 13,
+    "question": "How do I add a new crop?",
+    "answer": "Go to Companies > Crops, click 'New Crop', and input the crop description.",
+    "escalation": false
+  },
+  {
+    "id": 14,
+    "question": "How can I print a report of jobs by crop?",
+    "answer": "In the reports section, select 'List by Crop' and apply filters.",
+    "escalation": false
+  },
+  {
+    "id": 15,
+    "question": "How can I generate a financial report for a customer?",
+    "answer": "Go to Accounting > Customer Summary, select the customer and year, and generate the report.",
+    "escalation": false
+  },
+  {
+    "id": 16,
+    "question": "How do I filter reports by invoice status?",
+    "answer": "Use the 'Invoice' dropdown to filter by status when generating reports.",
+    "escalation": false
+  },
+  {
+    "id": 17,
+    "question": "How can I see the total hours worked by a worker?",
+    "answer": "Go to Movements > Worked Hours, select the worker and date range, and generate the report.",
+    "escalation": false
+  },
+  {
+    "id": 18,
+    "question": "How do I include or exclude VAT totals in reports?",
+    "answer": "In the report options, check or uncheck 'Include VAT totals'.",
+    "escalation": false
+  },
+  {
+    "id": 19,
+    "question": "How can I include economic data in a report?",
+    "answer": "Select the option 'Include Economic Data' in the report filters.",
+    "escalation": false
+  },
+  {
+    "id": 20,
+    "question": "How do I search for specific jobs?",
+    "answer": "Use the filters in the Jobs section to search by customer, crop, or date.",
+    "escalation": false
+  },
+  {
+    "id": 21,
+    "question": "How do I update the billing status of a job?",
+    "answer": "In the job form, manually change the billing status or use the invoicing function.",
+    "escalation": false
+  },
+  {
+    "id": 22,
+    "question": "How can I print a complete invoice list?",
+    "answer": "Go to Accounting > Print Invoices and select 'Complete Invoice List'.",
+    "escalation": false
+  },
+  {
+    "id": 23,
+    "question": "How can I check amounts already collected and pending?",
+    "answer": "Go to Accounting > Customer Summary and review the collected and pending amounts.",
+    "escalation": false
+  },
+  {
+    "id": 24,
+    "question": "How do I set measurement units for jobs?",
+    "answer": "In the job form, use the 'Measurement Unit' dropdown.",
+    "escalation": false
+  },
+  {
+    "id": 25,
+    "question": "How do I apply VAT percentage on a job?",
+    "answer": "In the job form, set the VAT percentage field accordingly.",
+    "escalation": false
+  },
+  {
+    "id": 26,
+    "question": "How can I apply a general discount percentage?",
+    "answer": "In the job form, input the desired discount percentage before saving.",
+    "escalation": false
+  },
+  {
+    "id": 27,
+    "question": "How do I export reports to PDF?",
+    "answer": "After generating a report, click 'Open Report' and export it as PDF.",
+    "escalation": false
+  },
+  {
+    "id": 28,
+    "question": "How do I track non-dismissed workers only?",
+    "answer": "In the Worked Hours section, check the 'Only Not Dismissed' option.",
+    "escalation": false
+  },
+  {
+    "id": 29,
+    "question": "How can I include a list of completed jobs in the report?",
+    "answer": "Check 'Include Completed Jobs List' when generating the report.",
+    "escalation": false
+  },
+  {
+    "id": 30,
+    "question": "How do I modify or delete a job record?",
+    "answer": "In the job list, select the record and use the edit or delete icons.",
+    "escalation": false
+  },
+  {
+    "id": 31,
+    "question": "How do I generate invoices for a specific customer and date range?",
+    "answer": "Go to Accounting > Generate Invoices, set the date range, select the customer, and click 'Generate Invoices'.",
+    "escalation": false
+  },
+  {
+    "id": 32,
+    "question": "How do I view the summary of billed and unbilled jobs?",
+    "answer": "Go to Accounting > Customer Summary, select the client and year, and view the breakdown of billed, unbilled, and collected amounts.",
+    "escalation": false
+  },
+  {
+    "id": 33,
+    "question": "How can I register a new income or expense entry?",
+    "answer": "Go to Movements, click 'New Balance Entry', fill in the details including company, amount, and payment type, then save.",
+    "escalation": false
+  },
+  {
+    "id": 34,
+    "question": "How do I generate reports for income and expenses over a specific period?",
+    "answer": "In the Movements section, set the date range and company, then click 'Search Data' or 'Open Report'.",
+    "escalation": false
+  },
+  {
+    "id": 35,
+    "question": "How do I register a purchase invoice for materials?",
+    "answer": "Go to Purchases, enter supplier, invoice date, and details, then input purchased materials and quantities.",
+    "escalation": false
+  },
+  {
+    "id": 36,
+    "question": "How can I track material usage on a machine?",
+    "answer": "In Materials Usage, select the machine, enter the usage date, and list the materials with their quantities.",
+    "escalation": false
+  },
+  {
+    "id": 37,
+    "question": "How do I register a new machine in the system?",
+    "answer": "Go to Companies > Machines, click 'New Machine', and enter purchase date, cost, license plate, and other details.",
+    "escalation": false
+  },
+  {
+    "id": 38,
+    "question": "How can I set the estimated operating hours for a machine?",
+    "answer": "In the machine details, input the estimated operating hours in the relevant field.",
+    "escalation": false
+  },
+  {
+    "id": 39,
+    "question": "How do I record the revaluation percentage of a machine?",
+    "answer": "In the machine details, set the 'Revaluation Percentage' field accordingly.",
+    "escalation": false
+  },
+  {
+    "id": 40,
+    "question": "How do I manage spare parts inventory?",
+    "answer": "Go to Materials, add a new material, set unit of measurement, minimum stock, and destination (e.g., for machines).",
+    "escalation": false
+  },
+  {
+    "id": 41,
+    "question": "How do I check materials below minimum stock?",
+    "answer": "In the Materials Report, select 'Below Minimum' in the filter to list low-stock items.",
+    "escalation": false
+  },
+  {
+    "id": 42,
+    "question": "How can I filter materials only assigned or not assigned to machines?",
+    "answer": "In the Materials Report, use the 'Destination to Machines' filter to select 'Only Assigned' or 'Only Not Assigned'.",
+    "escalation": false
+  },
+  {
+    "id": 43,
+    "question": "How do I track material quantities used over time?",
+    "answer": "Use the Materials Report, set the date range, and review the used quantities.",
+    "escalation": false
+  },
+  {
+    "id": 44,
+    "question": "How do I assign a material to a machine?",
+    "answer": "In the Material details, set the destination switch to 'For Machines'.",
+    "escalation": false
+  },
+  {
+    "id": 45,
+    "question": "How can I input the average price of a material?",
+    "answer": "In the Material form, enter the average price in the relevant field.",
+    "escalation": false
+  },
+  {
+    "id": 46,
+    "question": "How do I create a purchase record with multiple materials?",
+    "answer": "In the Purchases section, add multiple material lines with quantities and unit prices.",
+    "escalation": false
+  },
+  {
+    "id": 47,
+    "question": "How can I view reports on purchases from a specific supplier?",
+    "answer": "In Purchases Report, select the supplier and date range, then click 'Search Data'.",
+    "escalation": false
+  },
+  {
+    "id": 48,
+    "question": "How do I apply VAT rates on purchased items?",
+    "answer": "In the Purchase Invoice form, set the VAT rate per item line.",
+    "escalation": false
+  },
+  {
+    "id": 49,
+    "question": "How do I track payment type for a transaction?",
+    "answer": "In Movements, select the payment type (cash, checks, or other) when registering the entry.",
+    "escalation": false
+  },
+  {
+    "id": 50,
+    "question": "How do I record a transaction as income or expense?",
+    "answer": "In Movements, choose the movement type as 'Income' or 'Expense' before saving.",
+    "escalation": false
+  },
+  {
+    "id": 51,
+    "question": "How can I check the balance summary?",
+    "answer": "Go to the Balance section to view the total income, expenses, and net balance.",
+    "escalation": false
+  },
+  {
+    "id": 52,
+    "question": "How do I delete or modify a payment entry?",
+    "answer": "In the Movements list, select the entry and use the edit or delete icon.",
+    "escalation": false
+  },
+  {
+    "id": 53,
+    "question": "How do I set the minimum stock level for a material?",
+    "answer": "In the Material form, enter the minimum stock level under 'Minimum Stock'.",
+    "escalation": false
+  },
+  {
+    "id": 54,
+    "question": "How can I generate a PDF report of material movements?",
+    "answer": "In the Materials Report, click 'Open Report' to generate and export the PDF.",
+    "escalation": false
+  },
+  {
+    "id": 55,
+    "question": "How do I input the depreciation hourly rate for a machine?",
+    "answer": "In the Machine details, enter the hourly depreciation rate in the dedicated field.",
+    "escalation": false
+  },
+  {
+    "id": 56,
+    "question": "How can I update the current value of a machine?",
+    "answer": "In the Machine details, modify the 'Current Value' field and save.",
+    "escalation": false
+  },
+  {
+    "id": 57,
+    "question": "How do I assign costs to machine usage?",
+    "answer": "In the Materials Usage section, assign costs per material or operation linked to the machine.",
+    "escalation": false
+  },
+  {
+    "id": 58,
+    "question": "How can I filter reports by machine usage dates?",
+    "answer": "Set the usage date range in the Materials Usage report filters and search.",
+    "escalation": false
+  },
+  {
+    "id": 59,
+    "question": "How do I record the purchase of spare parts?",
+    "answer": "Go to Purchases, add a new entry for the spare part, set quantities, and complete the invoice.",
+    "escalation": false
+  },
+  {
+    "id": 60,
+    "question": "How can I check the total value of all materials?",
+    "answer": "In the Materials section, review the 'Total Value' field showing the sum across all materials.",
+    "escalation": false
+  },
+  {
+    "id": 61,
+    "question": "How do I register a new customer?",
+    "answer": "Go to Companies > Customers, click 'New Customer', and enter details like name, tax ID, address, and contacts.",
+    "escalation": false
+  },
+  {
+    "id": 62,
+    "question": "How do I register a new supplier?",
+    "answer": "Go to Companies > Suppliers, click 'New Supplier', and fill in company details, tax information, and contacts.",
+    "escalation": false
+  },
+  {
+    "id": 63,
+    "question": "How do I register a new subcontractor (third-party)?",
+    "answer": "Go to Companies > Third Parties, click 'New Third Party', and input their company data and contacts.",
+    "escalation": false
+  },
+  {
+    "id": 64,
+    "question": "How can I edit customer or supplier details?",
+    "answer": "In the Companies section, select the record and edit fields like address, mobile, tax ID, and more.",
+    "escalation": false
+  },
+  {
+    "id": 65,
+    "question": "How can I make a customer to become also a supplier?",
+    "answer": "In the customer form, click the 'Make Supplier' button.",
+    "escalation": false
+  },
+  {
+    "id": 66,
+    "question": "How do I register a new field (plot)?",
+    "answer": "Go to Positions > Fields, click 'New Field', and enter details like name, unit of measurement, area, and location.",
+    "escalation": false
+  },
+  {
+    "id": 67,
+    "question": "How do I set the GPS coordinates for a field?",
+    "answer": "In the field form, input the latitude, longitude, and radius fields accurately.",
+    "escalation": false
+  },
+  {
+    "id": 68,
+    "question": "How can I delete a customer, supplier, or subcontractor?",
+    "answer": "In the list view, select the record and click the delete icon (trash bin).",
+    "escalation": false
+  },
+  {
+    "id": 69,
+    "question": "How can I add additional notes to a customer or supplier?",
+    "answer": "Use the 'Notes' field at the bottom of the customer or supplier form to input extra information.",
+    "escalation": false
+  },
+  {
+    "id": 70,
+    "question": "How do I switch a supplier back to a customer?",
+    "answer": "In the supplier form, click the 'Make Customer' button to change the entity's role.",
+    "escalation": false
+  },
+  {
+    "id": 71,
+    "question": "The system shows HTTP error code 404, what should I do?",
+    "answer": "Please escalate this issue to second-level support as it may indicate a missing or misconfigured resource.",
+    "escalation": true
+  },
+  {
+    "id": 72,
+    "question": "I encountered an HTTP 500 Internal Server Error, what should I do?",
+    "answer": "This indicates a server-side failure; escalate immediately to the technical support team.",
+    "escalation": true
+  },
+  {
+    "id": 73,
+    "question": "I cannot log into the system despite using correct credentials, what now?",
+    "answer": "Escalate this issue to the help desk administrator to check user permissions and account status.",
+    "escalation": true
+  },
+  {
+    "id": 74,
+    "question": "The application crashes unexpectedly during a save operation, what should I do?",
+    "answer": "Escalate immediately to technical support to investigate possible data corruption or system failure.",
+    "escalation": true
+  },
+  {
+    "id": 75,
+    "question": "I received a database connection error when trying to access reports, what should I do?",
+    "answer": "Escalate this to the system administrator to verify database availability and connection parameters.",
+    "escalation": true
+  },
+  {
+    "id": 76,
+    "question": "The system is reporting inconsistent financial totals across modules, what now?",
+    "answer": "Escalate this case to accounting support to check for reconciliation or data integrity issues.",
+    "escalation": true
+  },
+  {
+    "id": 77,
+    "question": "My user session times out repeatedly despite activity, what should I do?",
+    "answer": "Please escalate this issue to system support to review session timeout policies and server logs.",
+    "escalation": true
+  },
+  {
+    "id": 78,
+    "question": "I cannot access supplier or customer data due to a permission denied error, what should I do?",
+    "answer": "Escalate to help desk administration to verify user permissions and access rights.",
+    "escalation": true
+  },
+  {
+    "id": 79,
+    "question": "I see a 'Service Unavailable' message when accessing the system, what should I do?",
+    "answer": "Escalate immediately to infrastructure support to verify system uptime and server status.",
+    "escalation": true
+  },
+  {
+    "id": 80,
+    "question": "The system is displaying corrupted or unreadable characters in reports, what should I do?",
+    "answer": "Escalate to technical support to check for encoding issues or data corruption.",
+    "escalation": true
+  }
+]

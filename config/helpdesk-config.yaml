@@ -1,0 +1,33 @@
+# OpenWhisk Helpdesk Configuration
+
+# Ollama LLM Configuration
+ollama:
+  endpoint_url: "http://172.31.17.101:11434"  # EC2 internal IP for OpenWhisk container access
+  model: "gpt-oss:20b"  # Can be changed to any Ollama-supported model
+  temperature: 0.5
+  max_tokens: 512
+  timeout: 60
+
+# Similarity Service Configuration  
+similarity:
+  threshold: 0.7  # Confidence threshold for using KB answers directly
+  algorithm: "cosine"
+  endpoint_url: "http://localhost:3001"  # For service-to-service communication
+
+# Prompts Configuration
+prompts:
+  system_prompt: >-
+    You are a help desk assistant for an agricultural subcontractor management software. 
+    Answer clearly and helpfully only if the question is relevant to the software. 
+    If it is not, state that you cannot answer. 
+    If the user needs human intervention, include EXACTLY the phrase 'contact support' once in the answer. 
+    If no human is required, DO NOT include that phrase.
+    
+  escalation_phrases:
+    - "contact support"
+    - "speak to human"
+    - "human assistance"
+
+# Knowledge Base Configuration
+knowledge:
+  file_path: "config/knowledge-base.json"

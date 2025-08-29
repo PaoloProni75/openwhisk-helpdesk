@@ -1,0 +1,25 @@
+# Test Configuration for OpenWhisk Helpdesk
+
+# Test Ollama Configuration
+ollama:
+  endpoint_url: "http://localhost:11434"
+  model: "llama2"
+  temperature: 0.0  # Deterministic for testing
+  max_tokens: 100
+  timeout: 10
+
+# Test Similarity Configuration
+similarity:
+  threshold: 0.5  # Lower threshold for testing
+  algorithm: "cosine"
+  endpoint_url: "http://localhost:3001"
+
+# Test Prompts
+prompts:
+  system_prompt: "You are a test assistant. Provide brief answers."
+  escalation_phrases:
+    - "contact support"
+
+# Test Knowledge Base
+knowledge:
+  file_path: "tests/test-knowledge.json"
