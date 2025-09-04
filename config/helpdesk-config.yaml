@@ -3,7 +3,7 @@
 # Ollama LLM Configuration
 ollama:
   endpoint_url: "http://172.31.17.101:11434"  # EC2 internal IP for OpenWhisk container access
-  model: "gpt-oss:20b"  # Can be changed to any Ollama-supported model
+  model: "nemotron-mini:latest"  # Can be changed to any Ollama-supported model
   temperature: 0.5
   max_tokens: 512
   timeout: 60

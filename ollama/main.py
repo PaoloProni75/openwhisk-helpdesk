@@ -39,6 +39,7 @@ def main(args):
         # Load configuration
         config = load_config()
         ollama_config = config.get('ollama', {})
+        prompts_config = config.get('prompts', {})
         
         question = args.get('question', 'test question')
         
@@ -48,19 +49,25 @@ def main(args):
         temperature = ollama_config.get('temperature', 0.5)
         max_tokens = ollama_config.get('max_tokens', 512)
         timeout = ollama_config.get('timeout', 30)
+        system_prompt = prompts_config.get('system_prompt', '')
         
         # Simple HTTP call without complex imports
         import urllib.request
         import urllib.parse
         
         url = f'{base_url}/v1/chat/completions'
+        
+        # Build messages with system prompt
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": question})
+        
         payload = {
             "model": model,
             "temperature": temperature,
             "max_tokens": max_tokens,
-            "messages": [
-                {"role": "user", "content": question}
-            ]
+            "messages": messages
         }
         
         data = json.dumps(payload).encode('utf-8')

@@ -12,12 +12,15 @@ class HelpdeskResponse:
     source: str  # 'kb' or 'llm'
     confidence: Optional[float] = None
     escalate_to_human: bool = False
+    response_time_ms: Optional[float] = None
     
-    def to_dict(self) -> dict:
+    def to_dict(self, question: str = None) -> dict:
         """Convert to dictionary for JSON serialization"""
         return {
+            'question': question,
             'answer': self.answer,
-            'source': self.source,
+            'escalation': self.escalate_to_human,
             'confidence': self.confidence,
-            'escalate_to_human': self.escalate_to_human
+            'source': self.source,
+            'response_time_ms': self.response_time_ms
         }
